@@ -20,12 +20,26 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/css/nucleo-svg.css",
+              "src/assets/css/nucleo-icons.css",
+              "src/assets/css/soft-ui-dashboard.css?v=1.0.6",
+              "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "src/assets/css/nucleo-svg.css",
+              "src/assets/css/nucleo-icons.css"
             ],
-            "scripts": []
+            "scripts": [
+              "https://kit.fontawesome.com/42d5adcbca.js",
+              "src/assets/js/core/popper.min.js",
+              "src/assets/js/core/bootstrap.min.js",
+              "src/assets/js/plugins/perfect-scrollbar.min.js",
+              "src/assets/js/plugins/smooth-scrollbar.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +111,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
